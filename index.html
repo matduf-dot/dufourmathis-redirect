@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Redirection vers mathisdufour.com</title>
+<meta name="robots" content="noindex" />
+<link rel="canonical" href="https://www.mathisdufour.com/" />
+<script>
+  location.replace("https://www.mathisdufour.com" + location.pathname + location.search + location.hash);
+</script>
+<meta http-equiv="refresh" content="0; url=https://www.mathisdufour.com/" />
+<style>
+  body { font-family: system-ui, sans-serif; margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 16px; background: #fff; color: #111; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+  <p>Ce site a déménagé : <a id="lien" href="https://www.mathisdufour.com/">www.mathisdufour.com</a></p>
+  <script>
+    document.getElementById("lien").href = "https://www.mathisdufour.com" + location.pathname + location.search + location.hash;
+  </script>
+</body>
+</html>
